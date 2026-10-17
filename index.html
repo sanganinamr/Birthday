@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Namr Sangani 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- Welcome Screen -->
+    <div id="welcomeScreen">
+        <div class="welcome-card">
+            <div class="welcome-cake">🎂</div>
+
+            <p class="welcome-label">✨ A SPECIAL CELEBRATION ✨</p>
+
+            <h1>Welcome to</h1>
+            <h2>Namr's Birthday World 💖</h2>
+
+            <p class="welcome-text">
+                A little world of happiness, memories and magic,
+                created especially for you!
+            </p>
+
+            <button id="startBtn">
+                🎉 Start the Celebration
+            </button>
+
+            <p class="welcome-footer">Made with 💗 for Namr Sangani</p>
+        </div>
+    </div>
+
+
+    <div class="stars"></div>
+
+
+    <canvas id="fireworks"></canvas>
+
+
+    <main class="birthday-container">
+
+        <p class="top-text">✨ A SPECIAL DAY FOR ✨</p>
+
+        <h1>Happy Birthday</h1>
+
+        <h2 class="name">Namr Sangani</h2>
+
+        <p class="subtitle">
+            Today is all about happiness, love and beautiful memories 💖
+        </p>
+
+        <div class="cake">🎂</div>
+
+
+        <div class="countdown-section">
+            <h2>🎉 Birthday Countdown 🎉</h2>
+            <p>Celebrating Namr Sangani on 25 October!</p>
+
+            <div id="countdown" class="countdown">
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <small>Days</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <small>Hours</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <small>Minutes</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <small>Seconds</small>
+                </div>
+            </div>
+        </div>
+
+
+        <button id="surpriseBtn">
+            🎁 Open Your Surprise
+        </button>
+
+
+        <div id="surpriseMessage" class="hidden">
+            <h2>🎉 Happy Birthday, Namr! 🎉</h2>
+
+            <p class="special-message">
+                Dear Namr Sangani 💖
+                <br><br>
+                Today is your special day! 🎂
+                May your life be filled with happiness,
+                success, love and beautiful memories. ✨
+                <br><br>
+                Keep Smiling, Keep Shining! 🌟
+                <br>
+                You deserve all the happiness in the world! 💗
+            </p>
+        </div>
+
+        <div id="heartContainer"></div>
+
+
+        <section class="gallery">
+            <h2>📸 My Memories</h2>
+
+
+            <div class="photos">
+                <img class="photo" src="images/photo1.jpg" alt="Namr photo 1">
+                <img class="photo" src="images/photo2.jpg" alt="Namr photo 2">
+                <img class="photo" src="images/photo3.jpg" alt="Namr photo 3">
+                <img class="photo" src="images/photo4.jpg" alt="Namr photo 4">
+                <img class="photo" src="images/photo5.jpg" alt="Namr photo 5">
+                <img class="photo" src="images/photo6.jpg" alt="Namr photo 6">
+                <img class="photo" src="images/photo7.jpg" alt="Namr photo 7">
+                <img class="photo" src="images/photo8.jpg" alt="Namr photo 8">
+                <img class="photo" src="images/photo9.jpg" alt="Namr photo 9">
+                <img class="photo" src="images/photo10.jpg" alt="Namr photo 10">
+                <img class="photo" src="images/photo11.jpg" alt="Namr photo 11">
+                <img class="photo" src="images/photo12.jpg" alt="Namr photo 12">
+            </div>
+
+        </section>
+
+        <button id="musicBtn">🎵 Play Music</button>
+        <audio id="birthdayMusic" loop>
+            <source src="birthday.mp3" type="audio/mpeg">
+        </audio>
+
+        <p class="footer">Made with 💖 for Namr Sangani</p>
+
+
+        <div id="photoModal" class="photo-modal">
+            <span id="closeModal" class="close-modal">&times;</span>
+            <img id="modalImage" src="" alt="Namr full size photo">
+        </div>
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
